@@ -3,149 +3,148 @@ import HeaderContainer from './components/header';
 import Information from './components/information';
 import { SectionContainer, Row, H1} from './components/styleGrid/base'
 import { Column } from './components/styleGrid/grid'
-import LineInfo from './components/styleGrid/lineInfo'
+import LineInfo from './components/lineInfo'
 
 class App extends Component {
   render() {
 		return (
 			<div>
 				<HeaderContainer />
-				<Information />
 				<SectionContainer>
 					<Row>
 						<H1>Exemplo Default</H1>
 					</Row>
 					<Row>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
-						<Column xs='1'>
-							<LineInfo>xs-1</LineInfo>
-						</Column>
-					</Row>
-					<Row>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
-						</Column>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
-						</Column>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
-						</Column>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
-						</Column>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
-						</Column>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
+						<Column de='1'>
+							<LineInfo>de-1</LineInfo>
 						</Column>
 					</Row>
 					<Row>
-						<Column xs='3'>
-							<LineInfo>xs-3</LineInfo>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
 						</Column>
-						<Column xs='3'>
-							<LineInfo>xs-3</LineInfo>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
 						</Column>
-						<Column xs='3'>
-							<LineInfo>xs-3</LineInfo>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
 						</Column>
-						<Column xs='3'>
-							<LineInfo>xs-3</LineInfo>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
 						</Column>
-					</Row>
-					<Row>
-						<Column xs='4'>
-							<LineInfo>xs-4</LineInfo>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
 						</Column>
-						<Column xs='4'>
-							<LineInfo>xs-4</LineInfo>
-						</Column>
-						<Column xs='4'>
-							<LineInfo>xs-4</LineInfo>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
 						</Column>
 					</Row>
 					<Row>
-						<Column xs='5'>
-							<LineInfo>xs-5</LineInfo>
+						<Column de='3'>
+							<LineInfo>de-3</LineInfo>
 						</Column>
-						<Column xs='5'>
-							<LineInfo>xs-5</LineInfo>
+						<Column de='3'>
+							<LineInfo>de-3</LineInfo>
 						</Column>
-						<Column xs='2'>
-							<LineInfo>xs-2</LineInfo>
+						<Column de='3'>
+							<LineInfo>de-3</LineInfo>
 						</Column>
-					</Row>
-					<Row>
-						<Column xs='6'>
-							<LineInfo>xs-6</LineInfo>
-						</Column>
-						<Column xs='6'>
-							<LineInfo>xs-6</LineInfo>
+						<Column de='3'>
+							<LineInfo>de-3</LineInfo>
 						</Column>
 					</Row>
 					<Row>
-						<Column xs='12'>
-							<LineInfo>xs-12</LineInfo>
+						<Column de='4'>
+							<LineInfo>de-4</LineInfo>
+						</Column>
+						<Column de='4'>
+							<LineInfo>de-4</LineInfo>
+						</Column>
+						<Column de='4'>
+							<LineInfo>de-4</LineInfo>
 						</Column>
 					</Row>
 					<Row>
-						<Column xs='6'>
-							<Column xs='6'>
-								<LineInfo>xs-6</LineInfo>
+						<Column de='5'>
+							<LineInfo>de-5</LineInfo>
+						</Column>
+						<Column de='5'>
+							<LineInfo>de-5</LineInfo>
+						</Column>
+						<Column de='2'>
+							<LineInfo>de-2</LineInfo>
+						</Column>
+					</Row>
+					<Row>
+						<Column de='6'>
+							<LineInfo>de-6</LineInfo>
+						</Column>
+						<Column de='6'>
+							<LineInfo>de-6</LineInfo>
+						</Column>
+					</Row>
+					<Row>
+						<Column de='12'>
+							<LineInfo>de-12</LineInfo>
+						</Column>
+					</Row>
+					<Row>
+						<Column de='6'>
+							<Column de='6'>
+								<LineInfo>de-6</LineInfo>
 							</Column>
-							<Column xs='6'>
-								<LineInfo>xs-6</LineInfo>
-							</Column>
-						</Column>
-						<Column xs='6'>
-							<Column xs='12'>
-								<LineInfo>xs-12</LineInfo>
+							<Column de='6'>
+								<LineInfo>de-6</LineInfo>
 							</Column>
 						</Column>
-					</Row>
-					<Row>
-						<Column xs='6'>
-							<Column xs='12'>
-								<LineInfo>xs-12</LineInfo>
+						<Column de='6'>
+							<Column de='12'>
+								<LineInfo>de-12</LineInfo>
 							</Column>
 						</Column>
-						<Column xs='6'>
-							<Column xs='12'>
-								<LineInfo>xs-12</LineInfo>
+					</Row>
+					<Row>
+						<Column de='6'>
+							<Column de='12'>
+								<LineInfo>de-12</LineInfo>
+							</Column>
+						</Column>
+						<Column de='6'>
+							<Column de='12'>
+								<LineInfo>de-12</LineInfo>
 							</Column>
 						</Column>
 					</Row>
@@ -155,6 +154,9 @@ class App extends Component {
 						<H1>Exemplo Diferentes Breakpoints</H1>
 					</Row>
 					<Row>
+						<Information />
+					</Row>
+					<Row>
 						<Column xs='6' sm='12' md='6' lg='12'>
 							<LineInfo>xs-6 | sm-12 | md-6 | lg-12</LineInfo>
 						</Column>
@@ -168,6 +170,29 @@ class App extends Component {
 						</Column>
 						<Column xs='12' sm='6' md='4' lg='4'>
 							<LineInfo>xs-12 | sm-6 | md-4 | lg-4</LineInfo>
+						</Column>
+						<Column xs='12' sm='12' md='4' lg='4'>
+							<LineInfo>xs-12 | sm-12 | md-4 | lg-4</LineInfo>
+						</Column>
+					</Row>
+					<Row>
+						<Column xs='6' sm='6' md='12' lg='2'>
+							<LineInfo>xs-6 | sm-6 | md-12 | lg-2</LineInfo>
+						</Column>
+						<Column xs='6' sm='6' md='12' lg='2'>
+							<LineInfo>xs-6 | sm-6 | md-12 | lg-2</LineInfo>
+						</Column>
+						<Column xs='12' sm='6' md='12' lg='2'>
+							<LineInfo>xs-12 | sm-6 | md-12 | lg-2</LineInfo>
+						</Column>
+						<Column xs='12' sm='6' md='12' lg='2'>
+							<LineInfo>xs-12 | sm-6 | md-12 | lg-2</LineInfo>
+						</Column>
+						<Column xs='6' sm='6' md='12' lg='2'>
+							<LineInfo>xs-6 | sm-6 | md-12 | lg-2</LineInfo>
+						</Column>
+						<Column xs='6' sm='6' md='12' lg='2'>
+							<LineInfo>xs-6 | sm-6 | md-12 | lg-2</LineInfo>
 						</Column>
 					</Row>
 				</SectionContainer>

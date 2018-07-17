@@ -3,10 +3,10 @@ import { InformationArticle, InformationP } from './style.js'
 
 const Information = () => (
 	<InformationArticle>
-		<InformationP><strong>xs</strong> default</InformationP>
-		<InformationP><strong>sm</strong> para tamanhos a partir de 768px</InformationP>
-		<InformationP><strong>md</strong> para tamanhos a partir de 1000px</InformationP>
-		<InformationP><strong>lg</strong> para tamanhos a partir de 1200px</InformationP>
+		<InformationP><strong>xs</strong> menor que 768px</InformationP>
+		<InformationP><strong>sm</strong> acima de 768px</InformationP>
+		<InformationP><strong>md</strong> acima de 1000px</InformationP>
+		<InformationP><strong>lg</strong> acima de 1200px</InformationP>
 	</InformationArticle>
 )
 

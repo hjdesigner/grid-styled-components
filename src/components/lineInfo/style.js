@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+import Config from '../styleGrid/config'
 
 const widthBefore = keyframes`
   from {
@@ -9,7 +10,7 @@ const widthBefore = keyframes`
   }
 `;
 
-const LineInfo = styled.span`
+const SpanLine = styled.span`
 	position: relative;
 	display: block;
 	box-sizing: border-box;
@@ -17,6 +18,7 @@ const LineInfo = styled.span`
 	text-align: center;
 	color: #000;
 	font-weight: 600;
+	font-size: .8rem;
 	&:before {
 		content: '';
 		width: 100%;
@@ -27,6 +29,9 @@ const LineInfo = styled.span`
 		background-image: linear-gradient(90deg, rgb(0, 255, 255), rgb(255, 0, 255));
 		animation: ${widthBefore} 1s ease-out;
 	}
+	@media only screen and (min-width: ${Config.breakPointTablet}) {
+		font-size: 1rem;
+	}
 `
 
-export default LineInfo;
+export default SpanLine;

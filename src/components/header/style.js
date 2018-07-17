@@ -5,7 +5,7 @@ const Header = styled.header`
 	width: 100%;
 	padding: .5rem 1rem;
 	text-align: center;
-	background-color: rgb(0, 0, 0);
+	background-image: linear-gradient(90deg, rgb(0, 255, 255), rgb(255, 0, 255));
 	box-sizing: border-box;
 	h1 {
 		color: rgb(255, 255, 255);

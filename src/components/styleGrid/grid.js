@@ -13,8 +13,11 @@ export const Column = styled.div`
 	padding: ${Config.paddingGrid};
 	min-height: 1px;
 	box-sizing: border-box;
-	${({ xs }) => (xs ? getWidthGrid(xs) : 'width: 100%')}
+	${({ de }) => (de ? getWidthGrid(de) : 'width: 100%')}
 	
+	@media only screen and (max-width: ${Config.breakPointTablet}) {
+		${({ xs }) => xs && getWidthGrid(xs)}
+	} 
 	@media only screen and (min-width: ${Config.breakPointTablet}) {
 		${({ sm }) => sm && getWidthGrid(sm)}
 	} 
